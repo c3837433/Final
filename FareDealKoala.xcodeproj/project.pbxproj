@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		992048711B53FF2B005F3AB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992048701B53FF2B005F3AB3 /* AppDelegate.swift */; };
+		992048731B53FF2B005F3AB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992048721B53FF2B005F3AB3 /* ViewController.swift */; };
+		992048761B53FF2B005F3AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992048741B53FF2B005F3AB3 /* Main.storyboard */; };
+		992048781B53FF2B005F3AB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992048771B53FF2B005F3AB3 /* Images.xcassets */; };
+		9920487B1B53FF2B005F3AB3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992048791B53FF2B005F3AB3 /* LaunchScreen.xib */; };
+		992048871B53FF2B005F3AB3 /* FareDealKoalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992048861B53FF2B005F3AB3 /* FareDealKoalaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		992048811B53FF2B005F3AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 992048631B53FF2B005F3AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9920486A1B53FF2B005F3AB3;
+			remoteInfo = FareDealKoala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9920486B1B53FF2B005F3AB3 /* FareDealKoala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FareDealKoala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9920486F1B53FF2B005F3AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		992048701B53FF2B005F3AB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		992048721B53FF2B005F3AB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		992048751B53FF2B005F3AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		992048771B53FF2B005F3AB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9920487A1B53FF2B005F3AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		992048801B53FF2B005F3AB3 /* FareDealKoalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FareDealKoalaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		992048851B53FF2B005F3AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		992048861B53FF2B005F3AB3 /* FareDealKoalaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FareDealKoalaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		992048681B53FF2B005F3AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9920487D1B53FF2B005F3AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		992048621B53FF2B005F3AB3 = {
+			isa = PBXGroup;
+			children = (
+				9920486D1B53FF2B005F3AB3 /* FareDealKoala */,
+				992048831B53FF2B005F3AB3 /* FareDealKoalaTests */,
+				9920486C1B53FF2B005F3AB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9920486C1B53FF2B005F3AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9920486B1B53FF2B005F3AB3 /* FareDealKoala.app */,
+				992048801B53FF2B005F3AB3 /* FareDealKoalaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9920486D1B53FF2B005F3AB3 /* FareDealKoala */ = {
+			isa = PBXGroup;
+			children = (
+				992048701B53FF2B005F3AB3 /* AppDelegate.swift */,
+				992048721B53FF2B005F3AB3 /* ViewController.swift */,
+				992048741B53FF2B005F3AB3 /* Main.storyboard */,
+				992048771B53FF2B005F3AB3 /* Images.xcassets */,
+				992048791B53FF2B005F3AB3 /* LaunchScreen.xib */,
+				9920486E1B53FF2B005F3AB3 /* Supporting Files */,
+			);
+			path = FareDealKoala;
+			sourceTree = "<group>";
+		};
+		9920486E1B53FF2B005F3AB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9920486F1B53FF2B005F3AB3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		992048831B53FF2B005F3AB3 /* FareDealKoalaTests */ = {
+			isa = PBXGroup;
+			children = (
+				992048861B53FF2B005F3AB3 /* FareDealKoalaTests.swift */,
+				992048841B53FF2B005F3AB3 /* Supporting Files */,
+			);
+			path = FareDealKoalaTests;
+			sourceTree = "<group>";
+		};
+		992048841B53FF2B005F3AB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				992048851B53FF2B005F3AB3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9920486A1B53FF2B005F3AB3 /* FareDealKoala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9920488A1B53FF2B005F3AB3 /* Build configuration list for PBXNativeTarget "FareDealKoala" */;
+			buildPhases = (
+				992048671B53FF2B005F3AB3 /* Sources */,
+				992048681B53FF2B005F3AB3 /* Frameworks */,
+				992048691B53FF2B005F3AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FareDealKoala;
+			productName = FareDealKoala;
+			productReference = 9920486B1B53FF2B005F3AB3 /* FareDealKoala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9920487F1B53FF2B005F3AB3 /* FareDealKoalaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9920488D1B53FF2B005F3AB3 /* Build configuration list for PBXNativeTarget "FareDealKoalaTests" */;
+			buildPhases = (
+				9920487C1B53FF2B005F3AB3 /* Sources */,
+				9920487D1B53FF2B005F3AB3 /* Frameworks */,
+				9920487E1B53FF2B005F3AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				992048821B53FF2B005F3AB3 /* PBXTargetDependency */,
+			);
+			name = FareDealKoalaTests;
+			productName = FareDealKoalaTests;
+			productReference = 992048801B53FF2B005F3AB3 /* FareDealKoalaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		992048631B53FF2B005F3AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Angela Smith";
+				TargetAttributes = {
+					9920486A1B53FF2B005F3AB3 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					9920487F1B53FF2B005F3AB3 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 9920486A1B53FF2B005F3AB3;
+					};
+				};
+			};
+			buildConfigurationList = 992048661B53FF2B005F3AB3 /* Build configuration list for PBXProject "FareDealKoala" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 992048621B53FF2B005F3AB3;
+			productRefGroup = 9920486C1B53FF2B005F3AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9920486A1B53FF2B005F3AB3 /* FareDealKoala */,
+				9920487F1B53FF2B005F3AB3 /* FareDealKoalaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		992048691B53FF2B005F3AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992048761B53FF2B005F3AB3 /* Main.storyboard in Resources */,
+				9920487B1B53FF2B005F3AB3 /* LaunchScreen.xib in Resources */,
+				992048781B53FF2B005F3AB3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9920487E1B53FF2B005F3AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		992048671B53FF2B005F3AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992048731B53FF2B005F3AB3 /* ViewController.swift in Sources */,
+				992048711B53FF2B005F3AB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9920487C1B53FF2B005F3AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992048871B53FF2B005F3AB3 /* FareDealKoalaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		992048821B53FF2B005F3AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9920486A1B53FF2B005F3AB3 /* FareDealKoala */;
+			targetProxy = 992048811B53FF2B005F3AB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		992048741B53FF2B005F3AB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				992048751B53FF2B005F3AB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		992048791B53FF2B005F3AB3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9920487A1B53FF2B005F3AB3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		992048881B53FF2B005F3AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		992048891B53FF2B005F3AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9920488B1B53FF2B005F3AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FareDealKoala/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9920488C1B53FF2B005F3AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FareDealKoala/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9920488E1B53FF2B005F3AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FareDealKoalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FareDealKoala.app/FareDealKoala";
+			};
+			name = Debug;
+		};
+		9920488F1B53FF2B005F3AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FareDealKoalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FareDealKoala.app/FareDealKoala";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		992048661B53FF2B005F3AB3 /* Build configuration list for PBXProject "FareDealKoala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992048881B53FF2B005F3AB3 /* Debug */,
+				992048891B53FF2B005F3AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9920488A1B53FF2B005F3AB3 /* Build configuration list for PBXNativeTarget "FareDealKoala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9920488B1B53FF2B005F3AB3 /* Debug */,
+				9920488C1B53FF2B005F3AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9920488D1B53FF2B005F3AB3 /* Build configuration list for PBXNativeTarget "FareDealKoalaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9920488E1B53FF2B005F3AB3 /* Debug */,
+				9920488F1B53FF2B005F3AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 992048631B53FF2B005F3AB3 /* Project object */;
+}
