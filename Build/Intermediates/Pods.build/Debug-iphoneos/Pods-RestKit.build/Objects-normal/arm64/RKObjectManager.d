@@ -1,0 +1,55 @@
+dependencies: \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Network/RKObjectManager.m \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/Target\ Support\ Files/Pods-RestKit/Pods-RestKit-prefix.pch \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/Target\ Support\ Files/Pods/Pods-environment.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Network/RKObjectManager.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Network/RKRouter.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/ObjectMapping/RKHTTPUtilities.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Network/RKPaginator.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Network/RKHTTPRequestOperation.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/Headers/Private/AFNetworking/AFHTTPClient.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/Headers/Private/AFNetworking/AFURLConnectionOperation.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/Headers/Private/AFNetworking/AFHTTPRequestOperation.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Network/RKObjectRequestOperation.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/ObjectMapping/RKMappingResult.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/ObjectMapping/RKMapperOperation.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/ObjectMapping/RKObjectMapping.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Support/RKMacros.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/ObjectMapping/RKMapping.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/Headers/Private/RKValueTransformers/RKValueTransformers.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/ObjectMapping/RKMappingOperation.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/ObjectMapping/RKAttributeMapping.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/ObjectMapping/RKPropertyMapping.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/ObjectMapping/RKMappingOperationDataSource.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Support/RKErrors.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/Headers/Private/AFNetworking/AFNetworking.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/Headers/Private/AFNetworking/AFJSONRequestOperation.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/Headers/Private/AFNetworking/AFXMLRequestOperation.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/Headers/Private/AFNetworking/AFPropertyListRequestOperation.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/Headers/Private/AFNetworking/AFImageRequestOperation.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/Headers/Private/AFNetworking/AFNetworkActivityIndicatorManager.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/Headers/Private/AFNetworking/UIImageView+AFNetworking.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Network/RKObjectParameterization.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Network/RKRequestDescriptor.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Network/RKResponseDescriptor.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Support/RKDictionaryUtilities.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Support/RKMIMETypes.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Support/RKLog.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Vendor/LibComponentLogging/Core/lcl_RK.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Support/lcl_config_components_RK.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Support/lcl_config_logger_RK.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Support/lcl_config_extensions_RK.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Support/RKMIMETypeSerialization.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Support/RKSerialization.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Network/RKPathMatcher.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/ObjectMapping/RKMappingErrors.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/ObjectMapping/RKDynamicMapping.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/ObjectMapping/RKObjectMappingMatcher.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/ObjectMapping/RKRelationshipMapping.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Network/RKRoute.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Network/RKRouteSet.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/CoreData/RKManagedObjectStore.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/CoreData/RKEntityMapping.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/CoreData/RKConnectionDescription.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/CoreData/RKManagedObjectCaching.h \
+  /Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/Pods/RestKit/Code/Network/RKManagedObjectRequestOperation.h

@@ -1,25 +1,152 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Xnr-zW-vo9">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Tinder Like View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="TinderLikeViewController" customModule="FareDealKoala" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="F5q-c7-acJ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c3F-qD-8HU">
+                                <rect key="frame" x="0.0" y="64" width="600" height="377"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ph-OP-rr0" customClass="KolodaView" customModule="Koloda">
+                                        <rect key="frame" x="38" y="30" width="523" height="304"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="5Ph-OP-rr0" secondAttribute="trailing" constant="39" id="DJf-CJ-Ufz"/>
+                                    <constraint firstItem="5Ph-OP-rr0" firstAttribute="top" secondItem="c3F-qD-8HU" secondAttribute="top" constant="30" id="Hma-s1-5cB"/>
+                                    <constraint firstItem="5Ph-OP-rr0" firstAttribute="leading" secondItem="c3F-qD-8HU" secondAttribute="leading" constant="38" id="lTA-mc-gCD"/>
+                                    <constraint firstAttribute="bottom" secondItem="5Ph-OP-rr0" secondAttribute="bottom" constant="43" id="uBO-W9-G7C"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eIw-nN-e1E">
+                                <rect key="frame" x="0.0" y="441" width="600" height="160"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DGw-DU-x1M">
+                                        <rect key="frame" x="150" y="40" width="300" height="80"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OcL-U6-8zJ">
+                                                <rect key="frame" x="215" y="24" width="32" height="32"/>
+                                                <state key="normal" image="btn_like_normal">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <state key="highlighted" image="btn_like_pressed"/>
+                                                <connections>
+                                                    <action selector="rightButtonTapped" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bxb-Wa-6ae"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQv-gn-j92">
+                                                <rect key="frame" x="65" y="24" width="32" height="32"/>
+                                                <state key="normal" image="btn_skip_normal">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <state key="highlighted" image="btn_skip_pressed"/>
+                                                <connections>
+                                                    <action selector="leftButtonTapped" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uVv-WD-hi1"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="OcL-U6-8zJ" firstAttribute="centerY" secondItem="CQv-gn-j92" secondAttribute="centerY" id="2hO-OT-HuI"/>
+                                            <constraint firstAttribute="centerY" secondItem="OcL-U6-8zJ" secondAttribute="centerY" id="DAQ-zV-n7g"/>
+                                            <constraint firstItem="CQv-gn-j92" firstAttribute="leading" secondItem="DGw-DU-x1M" secondAttribute="leading" constant="65" id="GAc-eV-2T8"/>
+                                            <constraint firstItem="OcL-U6-8zJ" firstAttribute="leading" secondItem="CQv-gn-j92" secondAttribute="trailing" constant="118" id="Mxi-WA-VZo"/>
+                                            <constraint firstAttribute="trailing" secondItem="OcL-U6-8zJ" secondAttribute="trailing" constant="53" id="VrE-Og-XVs"/>
+                                            <constraint firstItem="CQv-gn-j92" firstAttribute="top" secondItem="DGw-DU-x1M" secondAttribute="top" constant="24" id="uqE-Na-ttS"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerX" secondItem="DGw-DU-x1M" secondAttribute="centerX" id="9lp-Xp-6xi"/>
+                                    <constraint firstAttribute="centerY" secondItem="DGw-DU-x1M" secondAttribute="centerY" id="bOe-dA-N7R"/>
+                                    <constraint firstItem="DGw-DU-x1M" firstAttribute="top" secondItem="eIw-nN-e1E" secondAttribute="top" constant="40" id="lKR-OL-byg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="eIw-nN-e1E" secondAttribute="bottom" constant="-1" id="08Y-uP-pyl"/>
+                            <constraint firstAttribute="trailing" secondItem="c3F-qD-8HU" secondAttribute="trailing" id="0o7-Gb-htS"/>
+                            <constraint firstItem="c3F-qD-8HU" firstAttribute="leading" secondItem="eIw-nN-e1E" secondAttribute="leading" id="FGQ-CU-XDt"/>
+                            <constraint firstItem="eIw-nN-e1E" firstAttribute="top" secondItem="c3F-qD-8HU" secondAttribute="bottom" id="KcA-je-BND"/>
+                            <constraint firstItem="c3F-qD-8HU" firstAttribute="leading" secondItem="F5q-c7-acJ" secondAttribute="leading" id="Syo-eH-Y7R"/>
+                            <constraint firstItem="c3F-qD-8HU" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="rzB-Y9-8De"/>
+                            <constraint firstItem="c3F-qD-8HU" firstAttribute="trailing" secondItem="eIw-nN-e1E" secondAttribute="trailing" id="s18-WX-wzA"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="q9f-Q9-zV9">
+                        <barButtonItem key="leftBarButtonItem" style="done" id="ks5-Le-fh7">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jEH-nm-48y">
+                                <rect key="frame" x="15" y="33" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn_menu">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="done" id="P4d-jp-98o">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4Gy-wN-BdL">
+                                <rect key="frame" x="557" y="34" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn_undo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="undoButtonTapped" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6Jc-b3-ddI"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="kolodaView" destination="5Ph-OP-rr0" id="4gr-e9-ut5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1377" y="593"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Q6J-5b-w3K">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Xnr-zW-vo9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hOe-as-X2Y">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="grH-Kd-OjM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tdu-qs-7Ne" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="593"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="btn_like_normal" width="32" height="32"/>
+        <image name="btn_like_pressed" width="32" height="32"/>
+        <image name="btn_menu" width="21" height="21"/>
+        <image name="btn_skip_normal" width="32" height="32"/>
+        <image name="btn_skip_pressed" width="32" height="32"/>
+        <image name="btn_undo" width="21" height="21"/>
+    </resources>
 </document>

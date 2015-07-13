@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		212CE6FE9E5BFCB664AC2326 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F52FDDB8C9D3109473226C /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4DCC5F0AC83A004987C7F558 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F52FDDB8C9D3109473226C /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		992048711B53FF2B005F3AB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992048701B53FF2B005F3AB3 /* AppDelegate.swift */; };
-		992048731B53FF2B005F3AB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992048721B53FF2B005F3AB3 /* ViewController.swift */; };
 		992048761B53FF2B005F3AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992048741B53FF2B005F3AB3 /* Main.storyboard */; };
 		992048781B53FF2B005F3AB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992048771B53FF2B005F3AB3 /* Images.xcassets */; };
 		9920487B1B53FF2B005F3AB3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992048791B53FF2B005F3AB3 /* LaunchScreen.xib */; };
 		992048871B53FF2B005F3AB3 /* FareDealKoalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992048861B53FF2B005F3AB3 /* FareDealKoalaTests.swift */; };
+		992048911B53FFE5005F3AB3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992048901B53FFE5005F3AB3 /* CoreLocation.framework */; };
+		992048931B54001A005F3AB3 /* TinderLikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992048921B54001A005F3AB3 /* TinderLikeViewController.swift */; };
+		992048961B54094A005F3AB3 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992048941B54094A005F3AB3 /* OverlayView.xib */; };
+		9920489A1B540A86005F3AB3 /* SelectionOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992048991B540A86005F3AB3 /* SelectionOverlay.swift */; };
+		992048A11B54184F005F3AB3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992048A01B54184F005F3AB3 /* CFNetwork.framework */; };
+		992048A31B541857005F3AB3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992048A21B541857005F3AB3 /* CoreData.framework */; };
+		992048A51B54185D005F3AB3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992048A41B54185D005F3AB3 /* MobileCoreServices.framework */; };
+		992048A81B541870005F3AB3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992048A61B541870005F3AB3 /* Security.framework */; };
+		992048A91B541870005F3AB3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992048A71B541870005F3AB3 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +36,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C29413B45AAFA01FA1FB827 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		89B5C25E023D4C97D94E6AFE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9920486B1B53FF2B005F3AB3 /* FareDealKoala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FareDealKoala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9920486F1B53FF2B005F3AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		992048701B53FF2B005F3AB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		992048721B53FF2B005F3AB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		992048751B53FF2B005F3AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		992048771B53FF2B005F3AB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9920487A1B53FF2B005F3AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		992048801B53FF2B005F3AB3 /* FareDealKoalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FareDealKoalaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		992048851B53FF2B005F3AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		992048861B53FF2B005F3AB3 /* FareDealKoalaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FareDealKoalaTests.swift; sourceTree = "<group>"; };
+		992048901B53FFE5005F3AB3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		992048921B54001A005F3AB3 /* TinderLikeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinderLikeViewController.swift; sourceTree = "<group>"; };
+		992048951B54094A005F3AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../../Development/TinderLikeApps/Koloda-master/Example/Koloda/Base.lproj/OverlayView.xib"; sourceTree = "<group>"; };
+		992048991B540A86005F3AB3 /* SelectionOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionOverlay.swift; sourceTree = "<group>"; };
+		992048A01B54184F005F3AB3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		992048A21B541857005F3AB3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		992048A41B54185D005F3AB3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		992048A61B541870005F3AB3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		992048A71B541870005F3AB3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		992048AB1B541A51005F3AB3 /* FareDealKoala-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FareDealKoala-Bridging-Header.h"; sourceTree = "<group>"; };
+		A2F52FDDB8C9D3109473226C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +65,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				992048A81B541870005F3AB3 /* Security.framework in Frameworks */,
+				992048A91B541870005F3AB3 /* SystemConfiguration.framework in Frameworks */,
+				992048A51B54185D005F3AB3 /* MobileCoreServices.framework in Frameworks */,
+				992048A31B541857005F3AB3 /* CoreData.framework in Frameworks */,
+				992048A11B54184F005F3AB3 /* CFNetwork.framework in Frameworks */,
+				992048911B53FFE5005F3AB3 /* CoreLocation.framework in Frameworks */,
+				4DCC5F0AC83A004987C7F558 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +79,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				212CE6FE9E5BFCB664AC2326 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BD5942F96625432102FB1AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89B5C25E023D4C97D94E6AFE /* Pods.debug.xcconfig */,
+				0C29413B45AAFA01FA1FB827 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		992048621B53FF2B005F3AB3 = {
 			isa = PBXGroup;
 			children = (
+				992048AB1B541A51005F3AB3 /* FareDealKoala-Bridging-Header.h */,
 				9920486D1B53FF2B005F3AB3 /* FareDealKoala */,
 				992048831B53FF2B005F3AB3 /* FareDealKoalaTests */,
 				9920486C1B53FF2B005F3AB3 /* Products */,
+				6BD5942F96625432102FB1AE /* Pods */,
+				A35C07E7DD9B61DA56498FC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +120,13 @@
 			isa = PBXGroup;
 			children = (
 				992048701B53FF2B005F3AB3 /* AppDelegate.swift */,
-				992048721B53FF2B005F3AB3 /* ViewController.swift */,
+				992048921B54001A005F3AB3 /* TinderLikeViewController.swift */,
 				992048741B53FF2B005F3AB3 /* Main.storyboard */,
 				992048771B53FF2B005F3AB3 /* Images.xcassets */,
 				992048791B53FF2B005F3AB3 /* LaunchScreen.xib */,
+				992048941B54094A005F3AB3 /* OverlayView.xib */,
 				9920486E1B53FF2B005F3AB3 /* Supporting Files */,
+				992048991B540A86005F3AB3 /* SelectionOverlay.swift */,
 			);
 			path = FareDealKoala;
 			sourceTree = "<group>";
@@ -112,6 +156,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A35C07E7DD9B61DA56498FC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				992048A61B541870005F3AB3 /* Security.framework */,
+				992048A71B541870005F3AB3 /* SystemConfiguration.framework */,
+				992048A41B54185D005F3AB3 /* MobileCoreServices.framework */,
+				992048A21B541857005F3AB3 /* CoreData.framework */,
+				992048A01B54184F005F3AB3 /* CFNetwork.framework */,
+				992048901B53FFE5005F3AB3 /* CoreLocation.framework */,
+				A2F52FDDB8C9D3109473226C /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9920488A1B53FF2B005F3AB3 /* Build configuration list for PBXNativeTarget "FareDealKoala" */;
 			buildPhases = (
+				6DAC195D5749128BD743B6DF /* Check Pods Manifest.lock */,
 				992048671B53FF2B005F3AB3 /* Sources */,
 				992048681B53FF2B005F3AB3 /* Frameworks */,
 				992048691B53FF2B005F3AB3 /* Resources */,
+				D2EA6C9FCF42178B610CFDB3 /* Embed Pods Frameworks */,
+				AF0FF3FA588DC1451AE09D3F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9920488D1B53FF2B005F3AB3 /* Build configuration list for PBXNativeTarget "FareDealKoalaTests" */;
 			buildPhases = (
+				D6873C8AFCD447B0832C50E5 /* Check Pods Manifest.lock */,
 				9920487C1B53FF2B005F3AB3 /* Sources */,
 				9920487D1B53FF2B005F3AB3 /* Frameworks */,
 				9920487E1B53FF2B005F3AB3 /* Resources */,
+				7D36F3970BCF061FEAB46EC9 /* Embed Pods Frameworks */,
+				9C3AFD801E7410FFEA14364B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,6 +225,7 @@
 				TargetAttributes = {
 					9920486A1B53FF2B005F3AB3 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 56R6M4W3X8;
 					};
 					9920487F1B53FF2B005F3AB3 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -193,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				992048761B53FF2B005F3AB3 /* Main.storyboard in Resources */,
+				992048961B54094A005F3AB3 /* OverlayView.xib in Resources */,
 				9920487B1B53FF2B005F3AB3 /* LaunchScreen.xib in Resources */,
 				992048781B53FF2B005F3AB3 /* Images.xcassets in Resources */,
 			);
@@ -207,13 +273,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6DAC195D5749128BD743B6DF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D36F3970BCF061FEAB46EC9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C3AFD801E7410FFEA14364B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0FF3FA588DC1451AE09D3F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2EA6C9FCF42178B610CFDB3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6873C8AFCD447B0832C50E5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		992048671B53FF2B005F3AB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				992048731B53FF2B005F3AB3 /* ViewController.swift in Sources */,
+				992048931B54001A005F3AB3 /* TinderLikeViewController.swift in Sources */,
 				992048711B53FF2B005F3AB3 /* AppDelegate.swift in Sources */,
+				9920489A1B540A86005F3AB3 /* SelectionOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +410,15 @@
 				9920487A1B53FF2B005F3AB3 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		992048941B54094A005F3AB3 /* OverlayView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				992048951B54094A005F3AB3 /* Base */,
+			);
+			name = OverlayView.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -338,26 +507,41 @@
 		};
 		9920488B1B53FF2B005F3AB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B5C25E023D4C97D94E6AFE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FareDealKoala/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FareDealKoala-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		9920488C1B53FF2B005F3AB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C29413B45AAFA01FA1FB827 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FareDealKoala/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FareDealKoala-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		9920488E1B53FF2B005F3AB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B5C25E023D4C97D94E6AFE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -377,6 +561,7 @@
 		};
 		9920488F1B53FF2B005F3AB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C29413B45AAFA01FA1FB827 /* Pods.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -409,6 +594,7 @@
 				9920488C1B53FF2B005F3AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9920488D1B53FF2B005F3AB3 /* Build configuration list for PBXNativeTarget "FareDealKoalaTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +603,7 @@
 				9920488F1B53FF2B005F3AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

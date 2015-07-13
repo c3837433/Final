@@ -1,0 +1,6 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "854cacd443f3c5890efd8b9d6aa8f942"
+inputs: 
+- !dirty "/Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/FareDealKoala/TinderLikeViewController.swift"
+- !dirty "/Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/FareDealKoala/AppDelegate.swift"
+- !dirty "/Users/angelasmith/Desktop/FinalProjectFD/FareDealKoala/FareDealKoala/SelectionOverlay.swift"
